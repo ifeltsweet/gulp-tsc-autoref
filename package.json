@@ -1,0 +1,25 @@
+{
+  "name": "gulp-tsc-autoref",
+  "version": "0.0.1",
+  "description": "Automatically adds typescript references to the top of the file by analyzing import statements.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/ifeltsweet/gulp-tsc-autoref.git"
+  },
+  "keywords": [
+    "gulpplugin",
+    "typescript"
+  ],
+  "author": "Denis Pshenov",
+  "license": "MIT",
+  "dependencies": {
+    "gulp-header": "^1.0.5",
+    "gulp-util": "^3.0.0",
+    "path": "^0.4.9",
+    "through2": "^0.5.1"
+  }
+}
